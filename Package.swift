@@ -21,5 +21,5 @@ let package = Package(
         .library(name: "SwiftyChrono", targets: ["SwiftyChrono"]),
     ],
     */
-    dependencies: [],
+    dependencies: []
 )
