@@ -1,3 +1,5 @@
+// swift-tools-version:5.5
+
 //
 //  Package.swift
 //  SwiftyChrono
