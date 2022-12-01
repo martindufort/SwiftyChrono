@@ -23,6 +23,7 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftyChrono",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
     ]
 )
