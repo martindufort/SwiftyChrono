@@ -13,5 +13,16 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyChrono",
-    dependencies: []
+    platforms: [
+        .macOS(.v10_15),
+    ],
+    products: [
+        .library(name: "SwiftyChrono", targets: ["SwiftyChrono"]),
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: "SwiftyChrono",
+            dependencies: []),
+    ]
 )
